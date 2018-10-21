@@ -12,6 +12,7 @@
 .dropDown li a:hover{
     color: snow;
 }
+
 /* ------Estoque-Home------*/
 #estoque{
     display: flex;
@@ -51,6 +52,7 @@ div.estoque-home ul li{
    list-style:none;
     padding: 5px;
 }
+
 /*----------form-geral----------*/
 
 

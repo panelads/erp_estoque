@@ -48,7 +48,9 @@ function popup_arquivomagnetico(){
 
 function popup_sair(){
     $("#popup").html("");
-    var conteudo = "<div id='myModal' class='modal'> <div class='modal-content'> <span class='close' onClick='fecha_popup()'>&times;</span> <h3>SAIR</h3> <center>Tem certeza que deseja sair do sistema?</center> <div class='clearfix'></div> <hr class='mb-0'> <p class='btn-nao' onClick='fecha_popup()'>CANCELAR</p> <a href='/index.jsp'><p class='btn-sim'>OK</p></a> </div> </div>";
+
+    var conteudo = "<div id='myModal' class='modal'> <div class='modal-content'> <span class='close' onClick='fecha_popup()'>&times;</span> <h3>SAIR</h3> <center>Tem certeza que deseja sair do sistema?</center> <div class='clearfix'></div> <hr class='mb-0'> <p class='btn-nao' onClick='fecha_popup()'>CANCELAR</p> <a href='index.html'><p class='btn-sim'>OK</p></a> </div> </div>";
+    
     $("#popup").html(conteudo);
 }
 
@@ -71,5 +73,3 @@ $("#btnMenu").click(function(){
 $(document).ready(function () {
     $('#frm').DataTable();
 });
-
-//-------------------Estoque-------------------

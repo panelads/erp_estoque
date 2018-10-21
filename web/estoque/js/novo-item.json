@@ -1,12 +1,12 @@
 [
     {
-        "id":'1',
-        "nome": 'Panela de Pressão',
-        "quantidade":'200'
+        "id":"1",
+        "nome": "Panela de Pressão",
+        "quantidade":"200"
     },
     {
-        "id":'2',
-        "nome":'Frigideira',
-        "quantidade":'150'
+        "id":"2",
+        "nome":"Frigideira",
+        "quantidade":"150"
     }
   ]
