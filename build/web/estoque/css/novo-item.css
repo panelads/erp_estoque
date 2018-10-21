@@ -1,0 +1,64 @@
+.container-estoque{
+    display: flex;
+    text-decoration: none;
+    flex-wrap:wrap;
+}
+.novo-item-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.novo-item-input{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+.novo-item-button{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+.label-input{
+    flex: 1;
+    display: flex;
+  
+}
+.labels{
+    width: 150px;
+    color: #212121;
+    padding: 5px;
+    font-size: 20px;
+    align-self: center;
+    justify-self: flex-end;
+    
+}
+.inputs{
+    background: snow;
+    font-size: 20px;
+    color:#212121;
+    border: 2px solid #60b6e7;
+    border-radius: 5px;
+    margin: auto;
+}
+.buttons{
+    background: #212121;
+    font-size: 18px;
+    color:snow;
+    border: 2px solid #60b6e7;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin: auto ;
+}
+.dados ul{
+    list-style:none;
+    padding: 5px;
+}
+.dados ul li{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}
+
